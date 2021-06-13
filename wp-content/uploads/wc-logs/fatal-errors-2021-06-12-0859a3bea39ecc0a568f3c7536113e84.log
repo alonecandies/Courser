@@ -1,0 +1,12 @@
+2021-06-12T19:04:06+00:00 CRITICAL Uncaught Error: Call to undefined function hk_get_thumb() in /var/www/html/newsite/wp-content/themes/shop/sidebar.php:32
+Stack trace:
+#0 /var/www/html/newsite/wp-includes/template.php(730): require_once()
+#1 /var/www/html/newsite/wp-includes/template.php(676): load_template()
+#2 /var/www/html/newsite/wp-includes/general-template.php(136): locate_template()
+#3 /var/www/html/newsite/wp-content/themes/shop/index.php(11): get_sidebar()
+#4 /var/www/html/newsite/wp-includes/template-loader.php(106): include('/var/www/html/n...')
+#5 /var/www/html/newsite/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#6 /var/www/html/newsite/index.php(17): require('/var/www/html/n...')
+#7 {main}
+  thrown in /var/www/html/newsite/wp-content/themes/shop/sidebar.php on line 32
+

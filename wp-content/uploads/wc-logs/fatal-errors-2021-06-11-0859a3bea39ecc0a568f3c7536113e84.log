@@ -1,0 +1,50 @@
+2021-06-11T17:07:49+00:00 CRITICAL syntax error, unexpected ',', expecting ')' in /var/www/html/newsite/wp-content/themes/shop/index.php on line 67
+
+2021-06-11T17:09:47+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/newsite/wp-content/themes/shop/index.php:68
+Stack trace:
+#0 /var/www/html/newsite/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/newsite/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#2 /var/www/html/newsite/index.php(17): require('/var/www/html/n...')
+#3 {main}
+  thrown in /var/www/html/newsite/wp-content/themes/shop/index.php on line 68
+
+2021-06-11T17:09:59+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/newsite/wp-content/themes/shop/index.php:68
+Stack trace:
+#0 /var/www/html/newsite/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/newsite/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#2 /var/www/html/newsite/index.php(17): require('/var/www/html/n...')
+#3 {main}
+  thrown in /var/www/html/newsite/wp-content/themes/shop/index.php on line 68
+
+2021-06-11T17:10:01+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/newsite/wp-content/themes/shop/index.php:68
+Stack trace:
+#0 /var/www/html/newsite/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/newsite/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#2 /var/www/html/newsite/index.php(17): require('/var/www/html/n...')
+#3 {main}
+  thrown in /var/www/html/newsite/wp-content/themes/shop/index.php on line 68
+
+2021-06-11T17:10:01+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/newsite/wp-content/themes/shop/index.php:68
+Stack trace:
+#0 /var/www/html/newsite/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/newsite/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#2 /var/www/html/newsite/index.php(17): require('/var/www/html/n...')
+#3 {main}
+  thrown in /var/www/html/newsite/wp-content/themes/shop/index.php on line 68
+
+2021-06-11T17:10:02+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/newsite/wp-content/themes/shop/index.php:68
+Stack trace:
+#0 /var/www/html/newsite/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/newsite/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#2 /var/www/html/newsite/index.php(17): require('/var/www/html/n...')
+#3 {main}
+  thrown in /var/www/html/newsite/wp-content/themes/shop/index.php on line 68
+
+2021-06-11T17:10:02+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/newsite/wp-content/themes/shop/index.php:68
+Stack trace:
+#0 /var/www/html/newsite/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/newsite/wp-blog-header.php(19): require_once('/var/www/html/n...')
+#2 /var/www/html/newsite/index.php(17): require('/var/www/html/n...')
+#3 {main}
+  thrown in /var/www/html/newsite/wp-content/themes/shop/index.php on line 68
+

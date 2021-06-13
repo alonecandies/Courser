@@ -1,0 +1,44 @@
+html {
+  margin-top: 0px !important;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.clear {
+  clear: both;
+}
+
+:root{
+  --primary-color:#EB6047;
+  --secondary-color:#25262B;
+  --third-color:#2B2E34;
+  --hover-color:#f43818;
+}
+
+::selection {
+  color: white;
+  background-color: var(--primary-color);
+}
