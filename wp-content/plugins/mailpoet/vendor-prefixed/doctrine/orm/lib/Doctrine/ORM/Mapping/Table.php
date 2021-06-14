@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\ORM\Mapping; if (!defined('ABSPATH')) exit; final class Table implements \MailPoetVendor\Doctrine\ORM\Mapping\Annotation { public $name; public $schema; public $indexes; public $uniqueConstraints; public $options = []; } 

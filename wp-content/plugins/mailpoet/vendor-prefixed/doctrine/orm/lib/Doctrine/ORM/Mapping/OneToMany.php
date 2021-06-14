@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\ORM\Mapping; if (!defined('ABSPATH')) exit; final class OneToMany implements \MailPoetVendor\Doctrine\ORM\Mapping\Annotation { public $mappedBy; public $targetEntity; public $cascade; public $fetch = 'LAZY'; public $orphanRemoval = \false; public $indexBy; } 

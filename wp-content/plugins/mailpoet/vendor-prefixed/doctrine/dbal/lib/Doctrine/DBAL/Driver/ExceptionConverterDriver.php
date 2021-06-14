@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\DBAL\Driver; if (!defined('ABSPATH')) exit; interface ExceptionConverterDriver { public function convertException($message, \MailPoetVendor\Doctrine\DBAL\Driver\DriverException $exception); } 

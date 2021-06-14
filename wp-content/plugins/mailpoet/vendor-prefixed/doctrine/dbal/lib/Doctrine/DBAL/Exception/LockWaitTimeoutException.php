@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\DBAL\Exception; if (!defined('ABSPATH')) exit; class LockWaitTimeoutException extends \MailPoetVendor\Doctrine\DBAL\Exception\ServerException implements \MailPoetVendor\Doctrine\DBAL\Exception\RetryableException { } 

@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Symfony\Component\DependencyInjection; if (!defined('ABSPATH')) exit; use MailPoetVendor\Symfony\Contracts\Service\ResetInterface; interface ResettableContainerInterface extends \MailPoetVendor\Symfony\Component\DependencyInjection\ContainerInterface, \MailPoetVendor\Symfony\Contracts\Service\ResetInterface { public function reset(); } 

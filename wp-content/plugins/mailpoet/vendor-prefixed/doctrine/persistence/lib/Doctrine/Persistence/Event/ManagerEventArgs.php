@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\Persistence\Event; if (!defined('ABSPATH')) exit; use MailPoetVendor\Doctrine\Common\EventArgs; use MailPoetVendor\Doctrine\Persistence\ObjectManager; class ManagerEventArgs extends \MailPoetVendor\Doctrine\Common\EventArgs { private $objectManager; public function __construct(\MailPoetVendor\Doctrine\Persistence\ObjectManager $objectManager) { $this->objectManager = $objectManager; } public function getObjectManager() { return $this->objectManager; } } 

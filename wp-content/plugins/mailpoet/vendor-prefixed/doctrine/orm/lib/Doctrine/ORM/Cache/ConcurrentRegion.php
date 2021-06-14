@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\ORM\Cache; if (!defined('ABSPATH')) exit; interface ConcurrentRegion extends \MailPoetVendor\Doctrine\ORM\Cache\Region { public function lock(\MailPoetVendor\Doctrine\ORM\Cache\CacheKey $key); public function unlock(\MailPoetVendor\Doctrine\ORM\Cache\CacheKey $key, \MailPoetVendor\Doctrine\ORM\Cache\Lock $lock); } 

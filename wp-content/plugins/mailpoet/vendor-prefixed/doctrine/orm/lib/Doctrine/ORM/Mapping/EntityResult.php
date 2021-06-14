@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\ORM\Mapping; if (!defined('ABSPATH')) exit; final class EntityResult implements \MailPoetVendor\Doctrine\ORM\Mapping\Annotation { public $entityClass; public $fields = []; public $discriminatorColumn; } 

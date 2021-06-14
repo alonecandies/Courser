@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\ORM\Mapping; if (!defined('ABSPATH')) exit; interface EntityListenerResolver { function clear($className = null); function resolve($className); function register($object); } 

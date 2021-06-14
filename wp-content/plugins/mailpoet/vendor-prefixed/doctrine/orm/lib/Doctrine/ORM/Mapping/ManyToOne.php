@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\ORM\Mapping; if (!defined('ABSPATH')) exit; final class ManyToOne implements \MailPoetVendor\Doctrine\ORM\Mapping\Annotation { public $targetEntity; public $cascade; public $fetch = 'LAZY'; public $inversedBy; } 

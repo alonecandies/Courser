@@ -1,2 +1,0 @@
-<?php
- namespace MailPoetVendor\Doctrine\ORM\Mapping; if (!defined('ABSPATH')) exit; final class JoinTable implements \MailPoetVendor\Doctrine\ORM\Mapping\Annotation { public $name; public $schema; public $joinColumns = []; public $inverseJoinColumns = []; } 
